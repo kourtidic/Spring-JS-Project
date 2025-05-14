@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Welcome Page */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Tables */
+.table-responsive {
+    margin-bottom: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #f1f1f1;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Buttons */
+.action-btn {
+    margin-right: 0.25rem;
+}
+
+/* Badges for categories */
+.badge {
+    font-size: 0.85em;
+    padding: 0.35em 0.65em;
+}
+
+/* Detail pages */
+.detail-item {
+    margin-bottom: 1rem;
+}
+
+.detail-label {
+    font-weight: bold;
+}
+
+/* Form controls */
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Book and Author lists */
+#books-table-body tr, #authors-table-body tr {
+    cursor: pointer;
+}
+
+/* Loading spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Book and Author Details Modal */
+.book-details-title, .author-details-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.book-authors-list, .author-books-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.book-authors-list li, .author-books-list li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+/* Search bar */
+.search-container {
+    margin-bottom: 1rem;
+}
